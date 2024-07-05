@@ -9,6 +9,7 @@ engine = create_engine(DATABASE_URI)
 Session = sessionmaker(bind=engine)
 session = Session()
 
+
 class RealEstateListing(Base):
     __tablename__ = 'listings'
     id = Column(Integer, primary_key=True)

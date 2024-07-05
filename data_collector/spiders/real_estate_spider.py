@@ -3,7 +3,7 @@ from data_collector.models import RealEstateListing, session
 
 class RealEstateSpider(scrapy.Spider):
     name = 'real_estate_spider'
-    start_urls = ['https://example-real-estate.com']
+    start_urls = ['https://example-real-estate.com'] # TODO: Set real estate website
 
     def parse(self, response):
         for listing in response.css('div.listing'):
