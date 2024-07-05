@@ -1,0 +1,17 @@
+# Python
+*.pyc
+__pycache__
+*.pyo
+*.pyd
+*.log
+.venv
+venv
+env
+ENV
+.env
+.venv
+venv.bak
+venv.bak/
+
+# Scrapy
+.scrapy
