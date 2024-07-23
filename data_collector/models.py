@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, Column, String, Integer
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URI = 'postgresql+psycopg2://your_db_user:your_db_password@localhost/real_estate_db'
+DATABASE_URI = 'postgresql+psycopg2://your_db_user:your_db_password@localhost/real_estate_db' # change exapmle 
 Base = declarative_base()
 
 engine = create_engine(DATABASE_URI)
