@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # устнанавливаем зависимости 
-RUN pip install --no cache-dir -r requirements.txt
+RUN pip install -r requirements.txt # мб стоит добавить отсутсвие кэша
 
 # копируем в контейнер 
 COPY . .
